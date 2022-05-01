@@ -1,0 +1,145 @@
+.music__layout {
+  width: 100%;
+  height: 100vh;
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.musicify {
+  position: absolute;
+  top: 20px;
+  left: 43%;
+  background-color: transparent;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1ed761;
+}
+
+.music__container {
+  width: 30rem;
+  height: 25rem;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.left__side__container {
+  background-color: #333333;
+  overflow-y: hidden;
+  overflow-y: scroll;
+}
+.left__side__container::-webkit-scrollbar {
+  display: none;
+}
+
+.right__side__container {
+  background-color: #42425050;
+  display: flex;
+  flex-direction: column;
+}
+
+/* right container side*/
+.image_container__right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.rightImgContainer {
+  width: 100%;
+  height: 18rem;
+}
+
+.image_right {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right_singer_name {
+  display: block;
+  text-align: center;
+}
+
+.control_btns {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.control_emoji {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emoji {
+  display: block;
+  cursor: pointer;
+}
+
+.play_btn {
+  margin: 0 10px;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* left container side */
+
+.__music {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px;
+  text-transform: capitalize;
+}
+
+.__music:hover {
+  background-color: #42425050;
+}
+
+.music1 {
+  /* border-right: 10px solid #000fff; */
+  padding: 2px;
+}
+
+.setBorder {
+  border-right: 10px solid #000fff;
+}
+
+.leftImgContainer {
+  width: 6rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.image_left {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.ingrains {
+  display: block;
+}
+.music_name {
+  color: #00b7eb;
+}
+
+.singer_name {
+  color: #007fff;
+  font-weight: 800;
+}
+
+.music_name {
+  margin-bottom: 10px;
+}

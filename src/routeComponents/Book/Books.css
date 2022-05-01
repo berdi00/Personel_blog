@@ -1,0 +1,27 @@
+.book {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0);
+  position: relative;
+  transition: transform 0.5s ease;
+}
+
+.border-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 0;
+  margin: 0;
+}
+
+.imageBook {
+  height: 100%;
+  width: 100%;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.book:hover {
+  transform: scale(1.056);
+}
